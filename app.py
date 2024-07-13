@@ -34,7 +34,7 @@ with st.container():
     with image_column:
         st.image(img_lottie_animation)
     with text_column:
-        st.subheader("Scratch")
+        st.subheader("Learning how to code on scratch.")
         st.write('''
             Learn how to code in scratch!
                 Coding in scratch is like python but with tools.
