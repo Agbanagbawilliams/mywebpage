@@ -28,7 +28,7 @@ with st.container():
 # ---- PROJECTS ----
 with st.container():
     st.write("---")
-    st.header("Integrating With Lottie files")
+    st.header("Learning scratch")
     st.write("##")
     image_column, text_column = st.columns((1, 2))
     with image_column:
