@@ -50,5 +50,5 @@ Scratch😺https://scratch.mit.edu/
 
 Duolingo🐦https://www.duolingo.com/
 
-Github🐈‍⬛https://github.com/dashboard
+Github🐈‍⬛https://github.com/dashboard/
 """)
