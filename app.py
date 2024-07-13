@@ -10,7 +10,7 @@ img_lottie_animation = Image.open("images/yt lotte_animation.jpg")
 
 # ---- HEADER SECTION ----
 with st.container():
-    st.subheader("HI I am Williams:wave:")
+    st.subheader("HI I am Williams👋")
     st.title("MY WEBPAGE")
 
 # ---- What I DO ----
