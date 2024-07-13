@@ -39,7 +39,7 @@ with st.container():
             Learn how to code in scratch!
                 Coding in scratch is fun!
                 You use tools to programme which is easy then programming language because you type 
-                and in scratch you use tools/blocks.
+                and in scratch you use tools/blocks👍.
                 """)
 
         st.subheader("Using scratch tutorials")
