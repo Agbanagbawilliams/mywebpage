@@ -37,9 +37,12 @@ with st.container():
         st.subheader("Learning how to code on scratch.")
         st.write("""
             Learn how to code in scratch!
-                Coding in scratch is like python but with tools.
-                Learn how to use scratch in tutorials!
+                Coding in scratch is fun!
+                You use tools to programme which is easy then programming language.
                 """)
+
+        st.subheader("Using scratch tutorials")
+        st.write("Scratch tutorials helps you to use and understand Scratch.")
         st.markdown("Tutorials https://scratch.mit.edu/projects/1046994874/editor")
 
 # ---- CONNECT WITH ME ----
