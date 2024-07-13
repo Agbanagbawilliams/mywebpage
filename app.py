@@ -43,7 +43,7 @@ with st.container():
                 """)
 
         st.subheader("Using scratch tutorials")
-        st.write("Scratch tutorials helps you to use and understand Scratch.")
+        st.write("Scratch tutorials helps you to use and understand Scratch😉.")
         st.markdown("Tutorials https://scratch.mit.edu/projects/1046994874/editor")
 
 # ---- CONNECT WITH ME ----
