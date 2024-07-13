@@ -34,13 +34,13 @@ with st.container():
     with image_column:
         st.image(img_lottie_animation)
     with text_column:
-        st.subheader("Integrate Lottie Animations Inside Your Streamlit App")
+        st.subheader("Scratch")
         st.write('''
-            Learn how to use Lottie Files in Streamlit!
-                Animations make our web app more engaging and fun for programing, and Lottie Files are the easiest way to do!
-                In this tutorial, It will show you exactly how to do it.
+            Learn how to code in scratch!
+                Coding in scratch is like python but with tools.
+                Learn how to use scratch in tutorials!
                 ''')
-        st.markdown("Watch Video https://www.youtube.com/watch?v=TXSOitGoINE")
+        st.markdown("Tutorials https://scratch.mit.edu/projects/1046994874/editor")
 
 # ---- CONNECT WITH ME ----
 st.header("Connect with me📬")
