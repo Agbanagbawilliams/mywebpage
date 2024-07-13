@@ -35,11 +35,11 @@ with st.container():
         st.image(img_lottie_animation)
     with text_column:
         st.subheader("Learning how to code on scratch.")
-        st.write('''
+        st.write("""
             Learn how to code in scratch!
                 Coding in scratch is like python but with tools.
                 Learn how to use scratch in tutorials!
-                ''')
+                """)
         st.markdown("Tutorials https://scratch.mit.edu/projects/1046994874/editor")
 
 # ---- CONNECT WITH ME ----
