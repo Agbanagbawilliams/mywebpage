@@ -23,7 +23,7 @@ with st.container():
         st.write("What i do is reading, programing, math, english, sports, and Traveling.")
         st.write("If you want to see my Scratch profile https://scratch.mit.edu/users/Williamsagb/")
         st.write("If you want to see my duolingo profile https://www.duolingo.com/profile/Williamsagba")
-        st.write("If you want to see my github account https://github.com/Agbanagbawilliams/Agbanagbawilliams/tree/main")
+        st.write("If you want to see my github account https://github.com/Agbanagbawilliams/")
 
 # ---- PROJECTS ----
 with st.container():
