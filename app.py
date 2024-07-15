@@ -21,11 +21,9 @@ with st.container():
         st.header("What I do🤔")
         st.write("##")
         st.write("What i do is reading, programing, math, english, sports, and Traveling.")
-        st.write("You see my Scratch profile over here: https://scratch.mit.edu/users/Williamsagb/")
-        st.write("You see my duolingo profile over here: https://www.duolingo.com/profile/Williamsagba")
-        st.write("You see my github account over here: https://github.com/Agbanagbawilliams/")
-
-        st.write("You can buy a cup over here: https://buy.stripe.com/test_fZe15lcSD4fN7vi3cc please buy🥺")
+        st.write(" If you want to see my Scratch profile https://scratch.mit.edu/users/Williamsagb/")
+        st.write(" If you see my duolingo profile https://www.duolingo.com/profile/Williamsagba")
+        st.write(" If you want to see my github account https://github.com/Agbanagbawilliams/")
 
 # ---- PROJECTS ----
 with st.container():
