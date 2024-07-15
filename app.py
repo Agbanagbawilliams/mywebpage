@@ -24,7 +24,7 @@ with st.container():
         st.write("You see my Scratch profile over here: https://scratch.mit.edu/users/Williamsagb/")
         st.write("You see my duolingo profile over here: https://www.duolingo.com/profile/Williamsagba")
         st.write("You see my github account over here: https://github.com/Agbanagbawilliams/")
-        st.write("You can buy a cup over over here: https://buy.stripe.com/test_fZe15lcSD4fN7vi3cc please buy🥺")
+        st.write("You can buy a cup over over here: https://buy.stripe.com/test_fZe15lcSD4fN7vi3cc please buy🥺.")
 
 # ---- PROJECTS ----
 with st.container():
