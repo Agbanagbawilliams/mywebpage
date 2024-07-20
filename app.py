@@ -58,7 +58,7 @@ Github🐈‍⬛https://github.com/dashboard/
 """)
 
 # ----CONTACT ME ----
-st.header(":mailbox: Get In Touch With Me!")
+st.header(":mailbox: Connect With Me!")
 
 contact_form = """<form action="https://formsubmit.co/agbanagbawilliams@gmail.com" method="POST">
      <input type="hidden" name="_captcha" value="false">
@@ -70,10 +70,10 @@ contact_form = """<form action="https://formsubmit.co/agbanagbawilliams@gmail.co
 
 st.markdown(contact_form, unsafe_allow_html=True)
 
+
 # ---- USE LOCAL CSS FILE ----
 def local_css(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}<style>, unsafe_allow_html=True")
-
 
         local_css("style/style.css")
