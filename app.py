@@ -47,8 +47,8 @@ with st.container():
         st.markdown("Tutorials https://scratch.mit.edu/projects/1046994874/editor")
 
 # ---- CONNECT WITH ME ----
-st.header("Connect with me📬")
-st.write("""Connect with me on
+st.header("Follow me📬")
+st.write("""Follow me on
 
 Scratch😺https://scratch.mit.edu/
 
@@ -58,22 +58,9 @@ Github🐈‍⬛https://github.com/dashboard/
 """)
 
 # ----CONTACT ME ----
-st.header(":mailbox: Connect With Me!")
-
-contact_form = """<form action="https://formsubmit.co/agbanagbawilliams@gmail.com" method="POST">
-     <input type="hidden" name="_captcha" value="false">
-     <input type="text" name="name" placeholder="Your name" required>
-     <input type="email" name="email" placeholder="Your email" required>
-     <textarea name="message" placeholder="Your message here"></textarea>
-     <button type="submit">Send</button>
-</form>"""
-
-st.markdown(contact_form, unsafe_allow_html=True)
-
-
-# ---- USE LOCAL CSS FILE ----
-def local_css(file_name):
-    with open(file_name) as f:
-        st.markdown(f"<style>{f.read()}<style>, unsafe_allow_html=True")
-
-        local_css("style/style.css")
+st.header(" Connect With Me!")
+st.text_input("First Name")
+st.text_input("Last Name")
+st.text_input("Email")
+st.text_input("Message")
+st.button("Submit")
