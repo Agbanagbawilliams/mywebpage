@@ -1,3 +1,4 @@
+import streamlit
 from PIL import Image
 import streamlit as st
 
@@ -59,8 +60,12 @@ Github🐈‍⬛https://github.com/dashboard/
 
 # ----CONTACT ME ----
 st.header(" Connect With Me!")
+
 st.text_input("First Name")
 st.text_input("Last Name")
+number = st.slider("Age", min_value=0, max_value=100)
 st.text_input("Email")
 st.text_input("Message")
-st.button("Submit")
+submit_button = st.button("Submit")
+if submit_button:
+    st.success("Message successfully sent")
