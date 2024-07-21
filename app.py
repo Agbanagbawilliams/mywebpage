@@ -25,6 +25,7 @@ with st.container():
         st.write(" If you want to see my Scratch profile https://scratch.mit.edu/users/Williamsagb/")
         st.write(" If you see my duolingo profile https://www.duolingo.com/profile/Williamsagba")
         st.write(" If you want to see my github account https://github.com/Agbanagbawilliams/")
+        st.write("If you love my webpage please buy this to support me https://buy.stripe.com/test_cN215l5qb13B2aY8wz")
 
 # ---- PROJECTS ----
 with st.container():
@@ -59,7 +60,7 @@ Github🐈‍⬛https://github.com/dashboard/
 """)
 
 # ----CONTACT ME ----
-st.header(" Connect With Me!")
+st.header(" Support Me!")
 
 st.text_input("First Name")
 st.text_input("Last Name")
