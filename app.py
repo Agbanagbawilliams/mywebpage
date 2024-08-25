@@ -2,6 +2,9 @@ import streamlit
 from PIL import Image
 import streamlit as st
 
+# Nav bar
+st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">', unsafe_allow_html=True)
+
 st.markdown("""
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #DC0901;">
   <a class="navbar-brand" target="_blank">Multi app</a>
@@ -21,6 +24,7 @@ st.markdown("""
   </div>
 </nav>
 """, unsafe_allow_html=True)
+
 
 # Find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
 st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
