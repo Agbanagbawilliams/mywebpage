@@ -27,7 +27,6 @@ st.markdown("""
 
 
 # Find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
-st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
 
 # ---- LOAD ASSETS ----
 img_contact_form = Image.open("images/yt contact_form.png")
