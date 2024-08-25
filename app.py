@@ -2,6 +2,26 @@ import streamlit
 from PIL import Image
 import streamlit as st
 
+st.markdown("""
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #DC0901;">
+  <a class="navbar-brand" target="_blank">Multi app</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+     <li class="nav-item active">
+        <a class="nav-link" href="https://newwebpage-nr9d95duhpvvbdx6mqjedc.streamlit.app/" target="_blank">Home</a>
+      <li class="nav-item active">
+        <a class="nav-link" href="https://agbanagbawilliams-mywebpage-app-vqxbm4.streamlit.app/" target="_blank">Project</a>
+      <li class="nav-item">
+        <a class="nav-link" href="https://blank-app-quobxypwoytpuhz3cchas6.streamlit.app/" target="_blank">Chatbot</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+""", unsafe_allow_html=True)
+
 # Find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
 st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
 
