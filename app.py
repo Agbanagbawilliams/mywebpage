@@ -80,15 +80,3 @@ Duolingo🐦https://www.duolingo.com/
 
 Github🐈‍⬛https://github.com/dashboard/
 """)
-
-# ----CONTACT ME ----
-st.header(" Support Me!")
-
-st.text_input("First Name")
-st.text_input("Last Name")
-number = st.slider("Age", min_value=0, max_value=100)
-st.text_input("Email")
-st.text_input("Message")
-submit_button = st.button("Submit")
-if submit_button:
-    st.success("Message successfully sent")
