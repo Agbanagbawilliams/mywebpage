@@ -25,12 +25,6 @@ st.markdown("""
 </nav>
 """, unsafe_allow_html=True)
 
-st.set_page_config(
-    page_title="Project",
-    page_icon=":tada:",
-    layout="wide",
-)
-
 # Find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
 
 # ---- LOAD ASSETS ----
