@@ -70,6 +70,7 @@ with st.container():
         st.write("Scratch tutorials helps you to use and understand Scratch😉.")
         st.markdown("Tutorials https://scratch.mit.edu/projects/1046994874/editor")
 
+st.write("---")
 # ---- CONNECT WITH ME ----
 st.header("Follow me📬")
 st.write("""Follow me on
